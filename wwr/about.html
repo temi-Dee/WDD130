@@ -17,14 +17,15 @@
 
     <header>
         <img src="images/logo.png" alt="Day Out Logo" class="logo">
-
-        <nav class="sidebar">
+    
+        <nav class="main-nav">
             <a href="index.html">Home</a>
             <a href="about.html" class="active">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
 
     <main>
 
@@ -41,29 +42,53 @@
         </div>
 
         <!-- FIRST REQUIRED SECTION -->
-        <section>
+        <section class="history-section">
             <h2>History</h2>
-            <img src="images/historical-rafting.webp" alt="Historic Rafting Experience" class="history-img">
-
-            <p>
-                Founded in 1995 by a group of adventure enthusiasts, Day Out Expeditions started with a handful of rafts
-                and a passion for exploration.
-                What began as a small venture has grown into a leading provider of whitewater rafting experiences
-                known for safety, excitement,
-                and unforgettable connections with nature.
-            </p>
+        
+            <div class="history-layout">
+                <p>
+                    Founded in 1995 by a group of adventure enthusiasts, Day Out Expeditions began...
+                </p>
+        
+                <img src="images/historical-rafting.webp" alt="Historic Rafting Adventure">
+        
+                <p>
+                    Over the years, our company expanded its fleet, trained expert guides...
+                </p>
+            </div>
         </section>
 
+
         <!-- SECOND REQUIRED SECTION -->
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <p>
-                At Day Out Expeditions, our whitewater rafting trips are designed to give thrill-seekers unforgettable
-                experiences on the water.
-                Our expert guides ensure safety while navigating beautiful scenery and challenging rapids. Oars Up
-                your next adventure begins here!
-            </p>
-            <a href="trips.html" class="btn">Book a Trip</a>
+        <section class="adventures">
+            <h2>Adventure Awaits You</h2>
+        
+            <div class="adventure-grid">
+                <figure>
+                    <img src="images/rapid1.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+        
+                <figure>
+                    <img src="images/rapid2.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+        
+                <figure>
+                    <img src="images/rapid3.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+        
+                <figure>
+                    <img src="images/rapid4.jpg" alt="Thunder Creek">
+                    <figcaption>Thunder Creek</figcaption>
+                </figure>
+        
+                <figure>
+                    <img src="images/rapid5.jpg" alt="Super Splash Run">
+                    <figcaption>Super Splash Run</figcaption>
+                </figure>
+            </div>
         </section>
 
         <!-- Historical image (corrected filename + alt text) -->
@@ -72,14 +97,14 @@
 
     <footer>
         <p>Day Out Expeditions © 2025. Ayodele Daniel</p>
-
-        <!-- Required: nav.socialmedia with exactly 3 links -->
+    
         <nav class="socialmedia">
             <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
             <a href="#"><img src="images/linkedin.svg" alt="LinkedIn"></a>
             <a href="#"><img src="images/instagram-square.svg" alt="Instagram"></a>
         </nav>
     </footer>
+
 
 </body>
 
